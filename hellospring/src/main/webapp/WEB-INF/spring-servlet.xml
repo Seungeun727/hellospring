@@ -12,6 +12,7 @@
 	<!-- 컴포넌트 스캔 방식 설정 -->
 	<!-- spring-servlet.xml : 웹 환경 관련 설정 -->
 	<!-- @Controller만 스캔 -->
+	
 	<context:component-scan 
 		base-package="com.example.hellospring.controllers">
 		<!-- 스캔시 Service, Respository는 검색 대상에서 제외 -->
