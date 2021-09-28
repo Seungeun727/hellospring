@@ -12,6 +12,7 @@ public class HelloController {
 	// 메서드가 /hello URL 요청에 반응하도록 한다
 	@RequestMapping("/hello")
 	
+	// 1. 문제점 파라미터에 name 부여 안해주면 오류가 남.
 	public ModelAndView hello(@RequestParam String name) {
 		// 서블릿에서 getParameter로 해준 것을
 		// RequestParam이 대신 해준 것
